@@ -1,0 +1,81 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "ToDo List",
+    "collectionId": "02081951-2461-4901-b020-32f8e3f7ee88",
+    "dateExported": "2024-08-10T08:53:58.920Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "d54154de-625e-4d2e-91c0-594eb3bac7fb",
+            "colId": "02081951-2461-4901-b020-32f8e3f7ee88",
+            "containerId": "",
+            "name": "Post",
+            "url": "http://localhost:8001/api/toDoList",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-08-10T08:51:32.173Z",
+            "modified": "2024-08-10T08:52:59.010Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"title\": \"title\",\n  \"description\": \"Description\",\n  \"limitDate\": \"2000-03-22T00:00:00.000Z\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "244db291-e915-485b-9f7a-a9e72d5fb6a4",
+            "colId": "02081951-2461-4901-b020-32f8e3f7ee88",
+            "containerId": "",
+            "name": "Get",
+            "url": "http://localhost:8001/api/toDoList",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-08-10T08:51:39.556Z",
+            "modified": "2024-08-10T08:53:06.645Z",
+            "headers": []
+        },
+        {
+            "_id": "238bf4fd-09a6-40bb-b60e-1da289b7fc86",
+            "colId": "02081951-2461-4901-b020-32f8e3f7ee88",
+            "containerId": "",
+            "name": "GetByID",
+            "url": "http://localhost:8001/api/toDoList/1",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-08-10T08:52:03.699Z",
+            "modified": "2024-08-10T08:53:10.568Z",
+            "headers": []
+        },
+        {
+            "_id": "530038dd-b15e-453c-933d-afb44883b8fd",
+            "colId": "02081951-2461-4901-b020-32f8e3f7ee88",
+            "containerId": "",
+            "name": "Patch",
+            "url": "http://localhost:8001/api/toDoList/1",
+            "method": "PATCH",
+            "sortNum": 40000,
+            "created": "2024-08-10T08:52:13.724Z",
+            "modified": "2024-08-10T08:53:37.145Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"title\": \"title1\",\n  \"description\": \"Description\",\n  \"limitDate\": \"2000-03-22T00:00:00.000Z\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "79acc6bd-9010-445c-a4db-75a1b76cc20f",
+            "colId": "02081951-2461-4901-b020-32f8e3f7ee88",
+            "containerId": "",
+            "name": "Delete",
+            "url": "http://localhost:8001/api/toDoList/1",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2024-08-10T08:52:19.532Z",
+            "modified": "2024-08-10T08:53:48.339Z",
+            "headers": []
+        }
+    ],
+    "ref": "JScmmuqZ_sGXs4BRSt1nMQMR6TS9y1u3bmAzo0p06cT98MEesQTgVqMBtaTs8Y8zjybVY3XfB3_dpYCTepfg6g"
+}

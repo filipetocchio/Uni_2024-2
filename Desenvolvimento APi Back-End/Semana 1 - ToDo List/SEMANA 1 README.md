@@ -16,6 +16,20 @@ confesso que utilizei de meios de ia para realizar a parte do style, porem a par
 
 ## API info - informações sobre a API
 
+### quando baixar o codigo ira rodar os seguintes comandos:
+
+Para instalar as dependecias do node:
+`npm i`
+
+Para rodar o servidor do Back-End na porta "8001":
+`npm run start`
+
+Caso nao tenha a pasta "migrations", dentro da pasta "prisma", rodar o comando: 
+`npm run migrate `
+
+Caso queira ver de forma visual o banco de dados, com o studio do prisma:
+`npm run studio`
+
 ### Scripts do packge.json:
 
 No arquivo package.json, a seção "scripts" define comandos que podem ser executados usando o npm. Aqui está o que cada um faz:
@@ -35,8 +49,6 @@ No arquivo package.json, a seção "scripts" define comandos que podem ser execu
 "test
 ": "jest --watch": Executa os testes em modo de observação, reexecutando-os ao detectar mudanças. Rode com `npm run test:watch`.
 
-
-
 ### URL "http://localhost:8001/api/v1/toDoList"
 
 vc vai usar essa mesma URL para todo o crud: "Post, Get, GetByID, Patch e Delete".
@@ -47,7 +59,7 @@ GetByID: "http://localhost:8001/api/v1/toDoList/1"
 Patch: "http://localhost:8001/api/v1/toDoList/1"
 Delete: "http://localhost:8001/api/v1/toDoList/1"
 
-### json para teste:
+### Json para teste:
 
 ```
 {
@@ -56,3 +68,13 @@ Delete: "http://localhost:8001/api/v1/toDoList/1"
   "limitDate": "2000-03-22T00:00:00.000Z"
 }
 ```
+
+### Thunder Client Json para teste 
+
+Nome do arquivo "thunder-collection_ToDo List.json".
+
+"Thunder Client" e uma forma de testar meu crud, como se fosse um postman, porem e uma estenção do proprio VScode. 
+
+Link Thunder client: "https://www.thunderclient.com/"
+
+Apos a instação do Thunder client, va para a parte collection, clique nos 3 risquinhos na direita encima, com o butao direito do mouse, e click em "impot" para dai vc so importar o json e testar a aplicação de forma simples facil e rapida.
