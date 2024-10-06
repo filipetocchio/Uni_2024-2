@@ -6,14 +6,10 @@ Este Repositorio, ele sera apenas para a materia de API Back-End por enquanto, p
 
 Att ToDo list!
 
-## Semana 2
-
-Ainda nao possui uma ativiade
-
 ## Semana 3
 
-Ainda nao possui uma ativiade
+CRUD!
 
-## Semana 4
+## Semana 9
 
-Ainda nao possui uma ativiade
+Atividade Prática Ciclo 2
